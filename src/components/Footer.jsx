@@ -2,6 +2,7 @@ const socials = [
   { label: 'TikTok', href: '#' },
   { label: 'Instagram', href: '#' },
   { label: 'Facebook', href: '#' },
+  { label: 'LinkedIn', href: '#'},
 ]
 
 export default function Footer() {
