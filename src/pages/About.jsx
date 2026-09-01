@@ -6,7 +6,7 @@ export default function About() {
     <section className="px-8 py-12 flex flex-col gap-12">
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <Card>
-          <p className="text-[#4a1a2c] text-center leading-relaxed">
+          <p className="text-[#5C4A3A] text-center leading-relaxed">
             We're a woman-owned media lab helping brands, businesses, and creative entrepreneurs
             build a stronger presence online. We combine website and marketing consulting with
             strategic content creation and marketing to create digital experiences that are
@@ -15,8 +15,8 @@ export default function About() {
             noticed, we bring strategy and creativity together to help your vision come to life.
           </p>
         </Card>
-        <Card className="bg-[#f0dce8]" />
-        <Card className="bg-[#f0dce8]" />
+        <Card className="bg-[#E4EDF0]" />
+        <Card className="bg-[#E4EDF0]" />
       </div>
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
