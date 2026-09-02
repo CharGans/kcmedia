@@ -4,7 +4,7 @@ import Card from '../components/ui/Card'
 export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center text-center px-6 py-24 gap-10">
-      <h1 className="text-5xl font-bold text-[#5C4A3A]">Welcome to K&C Media Labs</h1>
+      <h1 className="text-5xl font-bold text-[#5C4A3A]">Welcome to Over Coffee Media</h1>
       <p className="max-w-xl text-lg text-[#5C4A3A]">
         A woman-owned media lab helping brands, businesses, and creative entrepreneurs
         build a stronger presence online.

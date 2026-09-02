@@ -9,11 +9,8 @@ const links = [
 export default function Navbar() {
   return (
     <nav className="flex items-start justify-between px-8 py-4">
-      <Link to="/" className="flex flex-col leading-tight">
-        <span className="text-4xl font-bold text-[#8BA5B0]" style={{ fontFamily: 'Georgia, serif' }}>
-          K&C
-        </span>
-        <span className="text-sm text-[#4a1a2c]">Media | Labs</span>
+      <Link to="/">
+        <img src="/LOGO.png" alt="Over Coffee Media" className="h-28 w-auto" />
       </Link>
       <ul className="flex gap-8 mt-2">
         {links.map(({ to, label }) => (
