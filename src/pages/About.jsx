@@ -4,6 +4,19 @@ import ProfileCard from '../components/ui/ProfileCard'
 export default function About() {
   return (
     <section className="px-8 py-12 flex flex-col gap-12">
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <ProfileCard
+          name="Keira Hirano"
+          title="CO - CEO"
+          bio="Hi, I'm Keira! hapa laba shooba, libba tooba yabba!"
+        />
+        <ProfileCard
+          name="Charlotte Ganske"
+          title="CO - CEO"
+          bio="Hi, I'm Charlotte! hapa laba shooba, libba tooba yabba!"
+        />
+      </div>
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <Card>
           <p className="text-[#5C4A3A] text-center leading-relaxed">
@@ -19,18 +32,6 @@ export default function About() {
         <Card className="bg-[#E4EDF0]" />
       </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
-        <ProfileCard
-          name="Keira"
-          title="CO - CEO"
-          bio="Hi, I'm Keira! hapa laba shooba, libba tooba yabba!"
-        />
-        <ProfileCard
-          name="Charlotte"
-          title="CO - CEO"
-          bio="Hi, I'm Charlotte! hapa laba shooba, libba tooba yabba!"
-        />
-      </div>
     </section>
   )
 }
