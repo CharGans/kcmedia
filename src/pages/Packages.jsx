@@ -106,23 +106,23 @@ export default function Packages() {
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
               <div className="flex flex-col gap-4">
                 <div>
-                  <h3 className="font-bold text-[#4a1a2c] text-center mb-2">Includes</h3>
+                  <h3 className="font-bold text-[#5C4A3A] text-center mb-2">Includes</h3>
                   {pkg.notIncluded ? (
-                    <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1">
+                    <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1">
                       {pkg.includes.map((item) => <li key={item}>{item}</li>)}
                     </ul>
                   ) : (
                     <>
-                      <p className="font-bold text-[#4a1a2c] text-sm">Social Media</p>
-                      <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1 mb-3">
+                      <p className="font-bold text-[#5C4A3A] text-sm">Social Media</p>
+                      <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1 mb-3">
                         {pkg.includes.slice(0, 5).map((item) => <li key={item}>{item}</li>)}
                       </ul>
-                      <p className="font-bold text-[#4a1a2c] text-sm">Strategy</p>
-                      <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1 mb-3">
+                      <p className="font-bold text-[#5C4A3A] text-sm">Strategy</p>
+                      <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1 mb-3">
                         {pkg.includes.slice(5, 9).map((item) => <li key={item}>{item}</li>)}
                       </ul>
-                      <p className="font-bold text-[#4a1a2c] text-sm">Creative</p>
-                      <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1">
+                      <p className="font-bold text-[#5C4A3A] text-sm">Creative</p>
+                      <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1">
                         {pkg.includes.slice(9).map((item) => <li key={item}>{item}</li>)}
                       </ul>
                     </>
@@ -133,8 +133,8 @@ export default function Packages() {
               <div className="flex flex-col gap-4">
                 {pkg.notIncluded && (
                   <div>
-                    <h3 className="font-bold text-[#4a1a2c] text-center mb-2">Not included</h3>
-                    <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1">
+                    <h3 className="font-bold text-[#5C4A3A] text-center mb-2">Not included</h3>
+                    <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1">
                       {pkg.notIncluded.map((item) => <li key={item}>{item}</li>)}
                     </ul>
                   </div>
@@ -142,22 +142,22 @@ export default function Packages() {
                 {pkg.marketing && (
                   <>
                     <div>
-                      <p className="font-bold text-[#4a1a2c] text-sm">Marketing</p>
-                      <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1">
+                      <p className="font-bold text-[#5C4A3A] text-sm">Marketing</p>
+                      <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1">
                         {pkg.marketing.map((item) => <li key={item}>{item}</li>)}
                       </ul>
                     </div>
                     <div>
-                      <p className="font-bold text-[#4a1a2c] text-sm">Reporting</p>
-                      <ul className="list-disc list-inside text-[#4a1a2c] text-sm space-y-1">
+                      <p className="font-bold text-[#5C4A3A] text-sm">Reporting</p>
+                      <ul className="list-disc list-inside text-[#5C4A3A] text-sm space-y-1">
                         {pkg.reporting.map((item) => <li key={item}>{item}</li>)}
                       </ul>
                     </div>
                   </>
                 )}
                 <div>
-                  <h3 className="font-bold text-[#4a1a2c] text-center mb-1">Great for</h3>
-                  <p className="text-[#4a1a2c] text-sm text-center">{pkg.greatFor}</p>
+                  <h3 className="font-bold text-[#5C4A3A] text-center mb-1">Great for</h3>
+                  <p className="text-[#5C4A3A] text-sm text-center">{pkg.greatFor}</p>
                 </div>
               </div>
             </div>
