@@ -7,12 +7,12 @@ export default function About() {
 
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <ProfileCard
-          name="Keira"
+          name="Keira Hirano"
           title="CO - CEO"
           bio="Hi, I'm Keira! hapa laba shooba, libba tooba yabba!"
         />
         <ProfileCard
-          name="Charlotte"
+          name="Charlotte Ganske"
           title="CO - CEO"
           bio="Hi, I'm Charlotte! hapa laba shooba, libba tooba yabba!"
         />
