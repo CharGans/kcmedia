@@ -11,7 +11,7 @@ export default function Footer() {
       <ul className="flex flex-col gap-2">
         {socials.map(({ label, href }) => (
           <li key={label}>
-            <a href={href} className="font-bold text-[#5C4A3A] hover:underline">
+            <a href={href} className="font-bold text-[#5C4A3A] hover:text-white transition-colors duration-200">
               {label}
             </a>
           </li>
