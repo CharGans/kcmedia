@@ -10,7 +10,7 @@ export default function Contact() {
           We'd love to hear about your project. Click below to send us an email!
         </p>
         <a
-          href="mailto:<your@email.com>?subject=Project%20Inquiry"
+          href="mailto:<contact@overcoffeemedia.com>?subject=Project%20Inquiry"
           className="px-8 py-3 bg-[#8BA5B0] text-white rounded-full font-semibold hover:opacity-80 transition"
         >
           Email Us

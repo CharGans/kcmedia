@@ -18,7 +18,7 @@ export default function Navbar() {
             <NavLink
               to={to}
               className={({ isActive }) =>
-                `text-xl text-[#5C4A3A] ${isActive ? 'font-semibold underline' : 'hover:underline'}`
+                `text-xl text-[#5C4A3A] ${isActive ? 'font-semibold' : 'hover:font-semiboldd'}`
               }
             >
               {label}
