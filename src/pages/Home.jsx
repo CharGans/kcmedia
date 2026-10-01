@@ -15,12 +15,12 @@ export default function Home() {
         build a stronger presence online.
       </p>
       <div className="flex gap-4">
-        <motion.div whileHover={btnHover} whileTap={btnTap} transition={btnTransition}>
+        <motion.div whileHover={btnHover} whileTap={btnTap} transition={btnTransition} className="inline-flex rounded-full">
           <Link to="/packages" className="block px-8 py-3 bg-[#8BA5B0] text-white rounded-full font-semibold">
             View Packages
           </Link>
         </motion.div>
-        <motion.div whileHover={btnHover} whileTap={btnTap} transition={btnTransition}>
+        <motion.div whileHover={btnHover} whileTap={btnTap} transition={btnTransition} className="inline-flex rounded-full">
           <Link to="/contact" className="block px-8 py-3 border-2 border-[#8BA5B0] text-[#8BA5B0] rounded-full font-semibold">
             Get in Touch
           </Link>
