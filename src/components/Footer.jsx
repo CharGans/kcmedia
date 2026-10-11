@@ -1,8 +1,8 @@
 const socials = [
-  { label: 'TikTok', href: '#' },
-  { label: 'Instagram', href: '#' },
-  { label: 'Facebook', href: '#' },
-  { label: 'LinkedIn', href: '#'},
+  { label: 'TikTok', href: 'https://www.tiktok.com/@overcoffeemedia' },
+  { label: 'Instagram', href: 'https://www.instagram.com/overcoffeemedia/' },
+  //{ label: 'Facebook', href: '#' },
+  //{ label: 'LinkedIn', href: '#'},
 ]
 
 export default function Footer() {

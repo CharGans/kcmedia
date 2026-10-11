@@ -77,7 +77,7 @@ const packages = [
     number: '03',
     name: 'Full-Service Media',
     price: '$6,000 / Month',
-    greatFor: "Businesses that don't just want to look active online but actually want to grow their audience, increase engagement, promote events, and generate measurable results.",
+    greatFor: 'Established brands and growing businesses ready for a full creative partner — combining content production, strategy, and marketing under one roof.',
     left: {
       'Social Media': [
         'Management of 2–3 platforms',

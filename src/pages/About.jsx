@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className="px-8 py-12 flex flex-col gap-12">
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+{/* <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         <ProfileCard
           name="Keira"
           title="CO - CEO"
@@ -16,7 +16,7 @@ export default function About() {
           title="CO - CEO"
           bio="Hi, I'm Charlotte! I'm the analyst behind the strategy. I've helped 10+ startups build their brand and develop marketing strategies that bring in a consistent, loyal customer base. A software developer and Prime Digital Academy graduate (June 2025), I was hired immediately after graduation to build a website, brand, and customer base from scratch — and that's exactly the kind of full-picture thinking I bring to Over Coffee Media."
         />
-      </div>
+      </div> */}
       <div className="grid grid-cols-1 sm:grid-cols-3 gap-6">
         <Card>
           <h3 className="text-[#8BA5B0] font-bold mb-3 text-center">How It Started</h3>
